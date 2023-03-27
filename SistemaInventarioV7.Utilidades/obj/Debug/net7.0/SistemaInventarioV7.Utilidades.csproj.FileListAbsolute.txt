@@ -1,0 +1,12 @@
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.deps.json
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.dll
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.pdb
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.csproj.AssemblyReference.cache
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.AssemblyInfoInputs.cache
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.AssemblyInfo.cs
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.csproj.CoreCompileInputs.cache
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.dll
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\refint\SistemaInventarioV7.Utilidades.dll
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\SistemaInventarioV7.Utilidades.pdb
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Utilidades\obj\Debug\net7.0\ref\SistemaInventarioV7.Utilidades.dll

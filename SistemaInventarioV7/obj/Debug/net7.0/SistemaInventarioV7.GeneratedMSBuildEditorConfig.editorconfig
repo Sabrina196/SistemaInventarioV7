@@ -12,20 +12,36 @@ build_property.RootNamespace = SistemaInventarioV7
 build_property.ProjectDir = D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Areas/Inventario/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Areas/Inventario/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Areas/Inventario/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Areas/Inventario/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Documentos/PracticasSabri/SistemaInventarioV7/SistemaInventarioV7/Views/Shared/Error.cshtml]

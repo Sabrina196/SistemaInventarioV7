@@ -1,0 +1,15 @@
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Modelos.deps.json
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Modelos.dll
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Modelos.pdb
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.csproj.AssemblyReference.cache
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.AssemblyInfoInputs.cache
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.AssemblyInfo.cs
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.csproj.CoreCompileInputs.cache
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.dll
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\refint\SistemaInventarioV7.Modelos.dll
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.pdb
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\ref\SistemaInventarioV7.Modelos.dll
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.dll
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\bin\Debug\net7.0\SistemaInventarioV7.Utilidades.pdb
+D:\Documentos\PracticasSabri\SistemaInventarioV7\SistemaInventarioV7.Modelos\obj\Debug\net7.0\SistemaInventarioV7.Modelos.csproj.CopyComplete
