@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Cl6dCz/Da26R+u/yNbh3kU+4UGhDfRn9I9yXLCMfEg=",
+  "Hash": "sVCyLnT/5z0YiS1UsxnJkKXUAbAMi478X4Mcu5BSiJ8=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "js/bodega.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bodega.js"
     },
     {
       "Identity": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\site.js",

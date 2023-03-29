@@ -51,16 +51,17 @@ namespace SistemaInventarioV7.AccesoDatos.Repositorio
                     //ejemplo "Categoria,Marca"
                     query = query.Include(incluirProp);
                 }
-                if (orderBy != null)
-                {
-                    query = orderBy(query);
-                }
-                if (!isTracking)
-                {
-                    query = query.AsNoTracking();
-                }
-                return await query.ToListAsync();
             }
+            if (orderBy != null)
+            {
+                query = orderBy(query);
+            }
+        if (!isTracking)
+        {
+            query = query.AsNoTracking();
+        }
+        return await query.ToListAsync();
+            
         }
 
         public async Task<T> ObtenerPrimero(Expression<Func<T, bool>> filtro = null, string incluirPropiedades = null, bool isTracking = true)
@@ -79,14 +80,15 @@ namespace SistemaInventarioV7.AccesoDatos.Repositorio
                     //ejemplo "Categoria,Marca"
                     query = query.Include(incluirProp);
                 }
-                if (!isTracking)
-                {
-                    query = query.AsNoTracking();
-                }
-
-                //Retorna un solo elemento que trabaja con filtros
-                return await query.FirstOrDefaultAsync();
             }
+            if (!isTracking)
+            {
+                query = query.AsNoTracking();
+            }
+
+            //Retorna un solo elemento que trabaja con filtros
+            return await query.FirstOrDefaultAsync();
+            
         }
 
         public void Remover(T entidad)
