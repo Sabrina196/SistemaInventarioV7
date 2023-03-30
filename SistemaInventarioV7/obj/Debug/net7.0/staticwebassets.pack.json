@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },
     {
+      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\categoria.js",
+      "PackagePath": "staticwebassets\\js\\categoria.js"
+    },
+    {
       "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

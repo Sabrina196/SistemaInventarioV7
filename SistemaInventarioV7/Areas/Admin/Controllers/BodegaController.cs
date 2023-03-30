@@ -96,7 +96,10 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
             }
             else
             {
-                valor = lista.Any(b => b.Nombre.ToLower().Trim() == nombre.ToLower().Trim() && b.Id != id);
+                if (nombre != null)
+                {
+                    valor = lista.Any(c => c.Nombre.ToLower().Trim() == nombre.ToLower().Trim() && c.Id != id);
+                }
             }
             if (valor)
             {
