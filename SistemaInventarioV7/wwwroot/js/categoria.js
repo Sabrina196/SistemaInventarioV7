@@ -31,10 +31,10 @@ function loadDataTable() {
                 "data": "estado",
                 "render": function (data){
                     if (data == true) {
-                        return "Activo";
+                        return `<p class='text-primary fw-bold'>Activo</p>`;
                     }
                     else {
-                        return "Inactivo";
+                        return `<p class='text-danger fw-bold'>Inactivo</p>`;
                     }
                 }, "width": "20%"
             },
