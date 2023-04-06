@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\182b9f43-d482-40be-844e-d57d8046cecb.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\182b9f43-d482-40be-844e-d57d8046cecb.JPG"
+    },
+    {
+      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\3d9c2f49-d928-410a-81ce-5f2ba73220cc.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\3d9c2f49-d928-410a-81ce-5f2ba73220cc.JPG"
+    },
+    {
+      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\4f0b96ae-d2d3-4ccf-9b87-0f451c1008f1.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\4f0b96ae-d2d3-4ccf-9b87-0f451c1008f1.JPG"
+    },
+    {
+      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\a888bc93-284c-4cdf-aa7c-c2b7ab9a984e.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\a888bc93-284c-4cdf-aa7c-c2b7ab9a984e.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\b1096c68-345a-461d-a3df-90d426db2b04.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\b1096c68-345a-461d-a3df-90d426db2b04.jpg"
+    },
+    {
       "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },
@@ -23,6 +43,10 @@
     {
       "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\marca.js",
       "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
     },
     {
       "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\site.js",

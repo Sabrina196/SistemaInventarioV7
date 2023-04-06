@@ -68,7 +68,7 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
 
 
 
-        #region
+        #region API
         [HttpGet]
         public async Task<IActionResult> ObtenerTodos()
         {
@@ -95,13 +95,13 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
         {
             bool valor = false;
             var lista = await _unidadTrabajo.Marca.ObtenerTodos();
-            if (id == 0)
+            if (nombre != null)
             {
-                valor = lista.Any(m => m.Nombre.ToLower().Trim() == nombre.ToLower().Trim());
-            }
-            else
-            {
-                if (nombre != null)
+                if (id == 0)
+                {
+                    valor = lista.Any(m => m.Nombre.ToLower().Trim() == nombre.ToLower().Trim());
+                }
+                else
                 {
                     valor = lista.Any(m => m.Nombre.ToLower().Trim() == nombre.ToLower().Trim() && m.Id != id);
                 }

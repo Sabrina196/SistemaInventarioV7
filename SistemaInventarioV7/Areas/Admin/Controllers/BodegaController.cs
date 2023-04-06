@@ -90,13 +90,13 @@ namespace SistemaInventarioV7.Areas.Admin.Controllers
         {
             bool valor = false;
             var lista = await _unidadTrabajo.Bodega.ObtenerTodos();
-            if (id == 0)
+            if (nombre != null)
             {
-                valor = lista.Any(b => b.Nombre.ToLower().Trim() == nombre.ToLower().Trim());
-            }
-            else
-            {
-                if (nombre != null)
+                if (id == 0)
+                {
+                    valor = lista.Any(b => b.Nombre.ToLower().Trim() == nombre.ToLower().Trim());
+                }
+                else
                 {
                     valor = lista.Any(c => c.Nombre.ToLower().Trim() == nombre.ToLower().Trim() && c.Id != id);
                 }
