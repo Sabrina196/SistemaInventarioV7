@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\Icono2.ico",
+      "PackagePath": "staticwebassets\\imagenes\\Icono2.ico"
+    },
+    {
+      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\Icono2.png",
+      "PackagePath": "staticwebassets\\imagenes\\Icono2.png"
+    },
+    {
       "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\182b9f43-d482-40be-844e-d57d8046cecb.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\182b9f43-d482-40be-844e-d57d8046cecb.JPG"
     },
@@ -23,10 +31,6 @@
     {
       "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\4f0b96ae-d2d3-4ccf-9b87-0f451c1008f1.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\4f0b96ae-d2d3-4ccf-9b87-0f451c1008f1.JPG"
-    },
-    {
-      "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\a888bc93-284c-4cdf-aa7c-c2b7ab9a984e.jpg",
-      "PackagePath": "staticwebassets\\imagenes\\producto\\a888bc93-284c-4cdf-aa7c-c2b7ab9a984e.jpg"
     },
     {
       "Id": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\b1096c68-345a-461d-a3df-90d426db2b04.jpg",

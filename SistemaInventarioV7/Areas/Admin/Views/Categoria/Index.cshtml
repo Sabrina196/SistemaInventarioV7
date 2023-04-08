@@ -3,28 +3,30 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!--Encabezado-->
-<div class="row">
-    <div class="col-lg-6">
-        <h2 class="text-primary">Lista de Categorias</h2>
+<div class="container pt-3">
+    <!--Encabezado-->
+    <div class="row pb-2">
+        <div class="col-auto me-auto">
+            <h2 class="text-primary">Lista de Categorias</h2>
+        </div>
+        <div class="col-auto">
+            <a class="btn btn-outline-primary" asp-action="Upsert"><i class="bi bi-plus-square-fill"></i> Crear Nueva Categoría</a>
+        </div>
     </div>
-    <div class="col-lg-6">
-        <a class="btn btn-outline-primary" asp-action="Upsert"><i class="bi bi-plus-square-fill"></i> Crear Nueva Categoría</a>
-    </div>
-</div>
 
 
-<!--Cuerpo-->
-<div class="p-4 border rounder bg-light">
-    <table id="tblDatos" class="table table-responsive table-hover">
-        <thead class="table-dark">
-            <tr>
-                <th>Nombre</th>
-                <th>Estado</th>
-                <th></th>
-            </tr>
-        </thead>
-    </table>
+    <!--Cuerpo-->
+    <div class="p-4 border rounder bg-light">
+        <table id="tblDatos" class="table table-responsive table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Estado</th>
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
 </div>
 
 
