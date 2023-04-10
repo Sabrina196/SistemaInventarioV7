@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "igmj7fEOc+PkMJKA7S33skqG9POWHnQUhh5TLFPGDa8=",
+  "Hash": "wPUnIMu+QfT+3blrralQ5o1xJkhl41Cgfwn2FG5bjUc=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1190,6 +1190,40 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\producto\\4f0b96ae-d2d3-4ccf-9b87-0f451c1008f1.JPG"
     },
     {
+      "Identity": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\9971009e-01cb-4552-a046-5d63fc363af8.jpg",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "imagenes/producto/9971009e-01cb-4552-a046-5d63fc363af8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\9971009e-01cb-4552-a046-5d63fc363af8.jpg"
+    },
+    {
+      "Identity": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\adf66c88-6d3f-446d-ad61-947a5ddc3910.JPG",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "imagenes/producto/adf66c88-6d3f-446d-ad61-947a5ddc3910.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\adf66c88-6d3f-446d-ad61-947a5ddc3910.JPG"
+    },
+    {
       "Identity": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\b1096c68-345a-461d-a3df-90d426db2b04.jpg",
       "SourceId": "SistemaInventarioV7",
       "SourceType": "Discovered",
@@ -1205,6 +1239,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\producto\\b1096c68-345a-461d-a3df-90d426db2b04.jpg"
+    },
+    {
+      "Identity": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\be27d2f7-b81a-4633-a3a8-2c571d796978.JPG",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "imagenes/producto/be27d2f7-b81a-4633-a3a8-2c571d796978.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\be27d2f7-b81a-4633-a3a8-2c571d796978.JPG"
     },
     {
       "Identity": "D:\\Documentos\\PracticasSabri\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",

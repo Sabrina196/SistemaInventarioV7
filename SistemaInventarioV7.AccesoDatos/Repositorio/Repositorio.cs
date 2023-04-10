@@ -2,6 +2,7 @@
 using SistemaInventarioV7.AccesoDatos.Data;
 using SistemaInventarioV7.AccesoDatos.Migrations;
 using SistemaInventarioV7.AccesoDatos.Repositorio.IRepositorio;
+using SistemaInventarioV7.Modelos.Especificaciones;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,12 +57,40 @@ namespace SistemaInventarioV7.AccesoDatos.Repositorio
             {
                 query = orderBy(query);
             }
-        if (!isTracking)
-        {
-            query = query.AsNoTracking();
-        }
-        return await query.ToListAsync();
+            if (!isTracking)
+            {
+                query = query.AsNoTracking();
+            }
+            return await query.ToListAsync();
             
+        }
+
+        public PagedList<T> ObtenerTodosPaginado(Parametros parametros, Expression<Func<T, bool>> filtro = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string incluirPropiedades = null, bool isTracking = true)
+        {
+            IQueryable<T> query = dbSet;
+            if (filtro != null)
+            {
+                //Se asemeja al select * from where
+                query = query.Where(filtro);
+            }
+            if (incluirPropiedades != null)
+            {
+                foreach (var incluirProp in incluirPropiedades.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    //Me va a incluir las propiedades de los objetos relacionados
+                    //ejemplo "Categoria,Marca"
+                    query = query.Include(incluirProp);
+                }
+            }
+            if (orderBy != null)
+            {
+                query = orderBy(query);
+            }
+            if (!isTracking)
+            {
+                query = query.AsNoTracking();
+            }
+            return PagedList<T>.ToPagedList(query, parametros.PageNumber, parametros.PageSize);
         }
 
         public async Task<T> ObtenerPrimero(Expression<Func<T, bool>> filtro = null, string incluirPropiedades = null, bool isTracking = true)
@@ -102,5 +131,6 @@ namespace SistemaInventarioV7.AccesoDatos.Repositorio
             //Elimina una lista de tipo de Objeto
             dbSet.RemoveRange(entidad);
         }
+
     }
 }

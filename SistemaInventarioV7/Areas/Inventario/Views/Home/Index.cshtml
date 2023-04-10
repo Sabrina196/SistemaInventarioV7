@@ -1,4 +1,4 @@
-﻿@model IEnumerable<SistemaInventarioV7.Modelos.Producto>
+﻿@model SistemaInventarioV7.Modelos.Especificaciones.PagedList<SistemaInventarioV7.Modelos.Producto>
 @using SistemaInventarioV7.Utilidades
 @{
     ViewData["Title"] = "Home Page";
@@ -9,7 +9,7 @@
 <header class="header">
     <div class="container pt-sm-5">
         <div class="heading-primary">
-            Los mejores Productos &Aacute; <br />
+            Los mejores Productos & <br />
             Marcas en nuestra Tienda
         </div>
     </div>
@@ -18,17 +18,20 @@
 <!--Cuerpo Principal-->
 <section>
     <div class="container my-2">
+        <form asp-asp-action="index" method="get">
         <div class="col-lg-6 col-md-6 col-sm-6 d-flex">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Buscar" aria-describedby="button- addon2" />
-                <button class="btn btn-outline-primary">
+                <input type="text" class="form-control" placeholder="Buscar" aria-describedby="button- addon2" 
+                    name="busqueda" value="@ViewData["BusquedaActual"]"/>
+                <button type="submit" class="btn btn-outline-primary">
                     <i class="bi bi-search"></i>
                 </button>
             </div>
         </div>
+        </form>
 
         <!--Productos-->
-        <div class="row">
+        <div class="row pb-2">
             @foreach (var producto in Model)
             {
                 <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
@@ -36,7 +39,7 @@
                         <img alt="@producto.Descripcion" src="@DS.ImagenRuta@producto.ImagenUrl" class="card-img-top" id="img-card" style="aspect-ratio:1/1" />
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title">@producto.Descripcion</h5>
-                            <p class="card-text"> $ @String.Format("{0:#, ##0.000}", producto.Precio) </p>
+                            <p class="card-text fw-bold"> $ @String.Format("{0:#, ##0.00}", producto.Precio) </p>
                             <div class="card-footer d-flex align-items-end px-0 pb-0 mt-auto bg-white">
                                 <a href="#" class="btn btn-outline-primary">
                                     <i class="bi bi-tags-fill"></i> Detalle
@@ -47,5 +50,31 @@
                 </div>
             }
         </div>
+
+        <div class="pt-1 text-center">
+            <!--Botón que me lleva al inicio-->
+            <a asp-action="Index" asp-route-pageNumber="@(1)" class="btn btn-outline-primary"
+               asp-route-busquedaActual="@ViewData["BusquedaActual"]">
+                <i class="bi bi-skip-start-fill"></i>
+            </a>
+            <!--Botón que me lleva a la página anterior-->
+            <a asp-action="Index" asp-route-pageNumber="@((int)ViewData["PageNumber"]-1)" class="btn btn-outline-primary @ViewData["Previo"]"
+               asp-route-busquedaActual="@ViewData["BusquedaActual"]">
+                Anterior
+            </a>
+            <span> Página @ViewData["PageNumber"] de @ViewData["TotalPaginas"]</span>
+            <!--Botón que me lleva a la página siguiente-->
+            <a asp-action="Index" asp-route-pageNumber="@((int)ViewData["PageNumber"]+1)" class="btn btn-outline-primary @ViewData["Siguiente"]"
+               asp-route-busquedaActual="@ViewData["BusquedaActual"]">
+                Siguiente
+            </a>
+            <!--Botón que me lleva al final-->
+            <a asp-action="Index" asp-route-pageNumber="@ViewData["TotalPaginas"]" class="btn btn-outline-primary"
+               asp-route-busquedaActual="@ViewData["BusquedaActual"]">
+                <i class="bi bi-skip-end-fill"></i>
+            </a>
+        </div>
+
     </div>
+
 </section>
