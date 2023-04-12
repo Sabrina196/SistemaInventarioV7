@@ -4498,6 +4498,9 @@
       "SistemaInventarioV7.Utilidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.4"
+        },
         "compile": {
           "bin/placeholder/SistemaInventarioV7.Utilidades.dll": {}
         },

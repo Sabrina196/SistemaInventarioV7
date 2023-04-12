@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.Internal;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using SistemaInventarioV7.AccesoDatos.Data;
 using SistemaInventarioV7.AccesoDatos.Repositorio.IRepositorio;
