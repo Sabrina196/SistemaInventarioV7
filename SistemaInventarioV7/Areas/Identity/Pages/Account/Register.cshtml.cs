@@ -228,6 +228,17 @@ namespace SistemaInventarioV7.Areas.Identity.Pages.Account
                         
                     }
                 }
+
+                //Llenamos nuevamente la listaRol
+                Input = new InputModel()
+                {
+                    ListaRol = _roleManager.Roles.Where(r => r.Name != DS.Role_Cliente).Select(r => r.Name).Select(l => new SelectListItem
+                    {
+                        Text = l,
+                        Value = l
+                    }),
+                };
+
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);

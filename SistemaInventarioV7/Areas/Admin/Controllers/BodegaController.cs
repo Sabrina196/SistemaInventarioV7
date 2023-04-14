@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SistemaInventarioV7.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventarioV7.Modelos;
 using SistemaInventarioV7.Utilidades;
@@ -7,7 +8,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace SistemaInventarioV7.Areas.Admin.Controllers
 {
     [Area("Admin")]
-
+    [Authorize(Roles = DS.Role_Admin)]
     public class BodegaController : Controller
     {
         private readonly IUnidadTrabajo _unidadTrabajo;
